@@ -34,7 +34,7 @@ function cards(){
         return await res.json();
     };
     
-    getCard('https://github.com/Ellisa99/Full_site/blob/master/db.json/menu')
+    getCard('https://github.com/Ellisa99/Full_site/blob/master/db.json')
     .then(data => {
         data.forEach(obj => new RectCards(obj.img, obj.altimg, obj.title, obj.descr, obj.price, 'card').render());
     });
