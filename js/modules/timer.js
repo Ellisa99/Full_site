@@ -1,5 +1,5 @@
 function timer() {
-    const deadline = '2020-12-31';
+    const deadline = '2021-12-31';
     function getTimeRemaining(endTime){
         const t = Date.parse(endTime) - Date.parse(new Date());
         let days = Math.floor(t/(1000*60*60*24)),
