@@ -37,7 +37,7 @@ function timer() {
             hours.innerHTML =getZero(t.hours);
             minutes.innerHTML = getZero(t.minutes);
             seconds.innerHTML = getZero(t.seconds);
-            if (t.total <= 0){
+            if (t['total'] <= 0){
                 clearInterval(setInterval);
             }
         }
